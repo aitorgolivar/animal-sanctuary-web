@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animal Sanctuary</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                Animal<span>Sanctuary</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="galeria.html" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacto.html" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex header-sm">
+        <div class="container">
+            <div class="header-title">
+                <h1>Galeria</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in
+                    molestias beatae doloremque, ratione optio.</p>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+
+    <!-- gallery section -->
+    <div id="gallery" class="py-4">
+        <div class="container">
+            <div class="gallery-row">
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-1.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-2.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-3.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-4.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-5.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-6.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-7.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-8.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+                <div class="gallery-item shadow">
+                    <img src="images/gallery-9.jpg" alt="gallery img">
+                    <span class="zoom-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of gallery section -->
+
+    <!-- img modal -->
+    <div id="img-modal-box">
+        <div id="img-modal">
+            <button type="button" id="modal-close-btn" class="flex">
+                <i class="fas fa-times"></i>
+            </button>
+            <button type="button" id="prev-btn" class="flex">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button type="button" id="next-btn" class="flex">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <img src="images/gallery-1.jpg">
+        </div>
+    </div>
+    <!-- end of img modal -->
+
+    <!-- popular places section -->
+    <section id="popular" class="py-4">
+        <div class="title-wrap">
+            <span class="sm-title">conoce a los animales salvados</span>
+            <h2 class="lg-title">Animales</h2>
+        </div>
+
+        <div class="popular-row">
+            <div class="popular-item shadow">
+                <img src="images/salvados-1.jpg" alt="">
+                <div>
+                    <span>Riu & Luca</span>
+
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ducimus, quia!</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/salvados-2.jpg" alt="">
+                <div>
+                    <span>Aky & Lunba</span>
+
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/salvados-3.jpg" alt="">
+                <div>
+                    <span>Kira & Lana</span>
+
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/salvados-4.jpg" alt="">
+                <div>
+                    <span>Yugi & Jonny</span>
+
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/salvados-5.jpg" alt="">
+                <div>
+                    <span>Tristan & Isolda</span>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/salvados-6.jpg" alt="">
+                <div>
+                    <span>Jack</span>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/salvados-7.jpg" alt="">
+                <div>
+                    <span>Rua & Crow</span>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
+                </div>
+            </div>
+
+            <div class="popular-item shadow">
+                <img src="images/salvados-8.jpg" alt="">
+                <div>
+                    <span>Demon</span>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of popular places section -->
+
+    <!-- video section -->
+    <section id="video" class="videoReform">
+        <div class="video-wrapper flex">
+            <video loop autoplay loop>
+                <source src="videos/seel.mp4" type="video/mp4">
+            </video>
+
+        </div>
+    </section>
+    <!-- end of video section -->
+
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Animal<span>Sanctuary</span>
+                </a>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates maiores nam
+                    vitae iusto. Placeat rem sint voluptas natus exercitationem autem quod neque, odit laudantium
+                    reiciendis ipsa suscipit veritatis voluptate.</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="footer-item">
+                <h2>Contactanos</h2>
+                <ul>
+                    <li><a href="#">6555 4747 5454</a></li>
+                    <li><a href="#">animalsan@gmail.com</a></li>
+
+                </ul>
+            </div>
+
+
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
